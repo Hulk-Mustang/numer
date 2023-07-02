@@ -1,0 +1,155 @@
+body{
+    background-color: #222;
+}
+.kalkylator{
+    text-align: center;
+    margin-right: 300px;
+    color: whitesmoke;
+    font-family: Gill Sans, sans-serif	;
+}
+#oner, #twoner{
+    text-align: center;
+    justify-content: center;
+    margin-left: 370px;
+    width: 500px;
+    height: 50px;
+    font-size: large;
+    border-radius: 20px;
+    border: 3px double #222;
+}
+#twoner{
+    margin-top: 20px;
+}
+#plus, #minus{
+    width: 245px;
+    height: 45px;
+    border-radius: 5px;
+    border: 3px solid transparent;
+    transition: all .3s;
+    font-size: x-large;
+}
+.class{
+    margin-left: 375px;
+}
+#plus{
+    background-color: rgb(55, 147, 55);
+    color: whitesmoke;
+}
+#minus{
+    background-color: rgb(226, 55, 55);
+    color: whitesmoke;
+}
+#plus:hover{
+    background-color: transparent;
+    border: 3px solid rgb(55, 147, 55);
+    color: rgb(55, 147, 55);
+    cursor: pointer;
+}
+#minus:hover{
+    background-color: transparent;
+    border: 3px solid rgb(226, 55, 55);
+    color: rgb(226, 55, 55);
+    cursor: pointer;
+}
+#lean{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid rgb(51, 175, 216);
+    background-color: transparent;
+    color: rgb(51, 175, 216);
+    font-size: large;
+    transition: all .3s;
+}
+#lean:hover{
+    background-color: rgb(51, 175, 216);
+    color: #222;
+    cursor: pointer;
+}
+.last{
+    height: 100px;
+    width: 500px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.last #koko{
+    padding-top: 20px;
+}
+#ym{
+margin-left: 270px;
+background-color: rgb(242, 151, 39);
+color: whitesmoke;
+transition: all .3s;
+}
+#del{
+margin-left: 900px;
+background-color: rgb(146, 181, 76);
+color: whitesmoke;
+transition: all .3s;
+}
+#ym, #del{
+    width: 70px;
+    height: 400px;
+    position: absolute;
+    margin-top: 60px;
+    font-size:  75px;
+    border-radius: 10px;
+    border: transparent;
+}
+#ym:hover{
+    color: rgb(242, 151, 39);
+    background-color: transparent;
+    border: 3px solid rgb(242, 151, 39);
+}
+#del:hover{
+    background-color: transparent;
+    border: 3px solid rgb(146, 181, 76);
+    color: rgb(146, 181, 76);
+}
+.time{
+    position: absolute;
+    margin-left: 50px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 1000px;
+    background-color: rgb(242, 151, 39);
+}
+#time, #date, #full{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: whitesmoke;
+    transition: all .3s;
+}
+#time{
+    margin-right: 20PX;
+    background-color: rgb(226, 55, 55);
+}
+#full{
+    margin-left: 20px;
+    background-color: rgb(51, 175, 216);
+}
+#date{
+    background-color: rgb(146, 181, 76);
+}
+#output{
+    background-color: aliceblue;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+#set{
+    color: whitesmoke;
+    font-size: larger;
+}
+#koko{
+    font-size: large;
+}
+#green{
+    font-size: 20px;
+}
